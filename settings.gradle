@@ -1,0 +1,2 @@
+rootProject.name = "Eagle_Eye"
+include ':app'

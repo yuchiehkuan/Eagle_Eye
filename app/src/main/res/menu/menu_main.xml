@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_maps"
+        android:title="定位"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_record"
+        android:title="紀錄"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+        android:title="設定"
+        app:showAsAction="never" />
+</menu>
