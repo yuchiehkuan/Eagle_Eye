@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
     <EditText
@@ -12,9 +14,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="ACCOUNT"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="200dp" />
+        android:inputType="textEmailAddress" />
+
 
     <EditText
         android:id="@+id/pwd"
@@ -22,9 +23,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="PASSWORD"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="292dp" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/action_login"
@@ -34,11 +33,11 @@
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="418dp" />
 
-<!--    <Button-->
-<!--        android:id="@+id/action_register"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="REGISTER"-->
-<!--        tools:layout_editor_absoluteX="237dp"-->
-<!--        tools:layout_editor_absoluteY="418dp" />-->
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/action_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="418dp" />
+</LinearLayout>
